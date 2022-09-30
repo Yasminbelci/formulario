@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASMIN BELCI </title>
+    <link rel="stylesheet" href="ESTILO.CSS">
+
+    <div class="p-3 mb-2 bg-success text-black">FORMULÁRIO</div>
+
+<main>
+</head>
+<body>
+
+    <h1>Login</h1>
+
+    <form>
+        <label for="nome-usuário">Nome</label>
+        <input type="texto" id="nome do usuário" placeholder="nome do usuário">
+
+        <label for="senha-usuário">Senha</label>
+        <input type="password" id="senha-do-usuário" placeholder="senha do usuário">
+
+        <label for="idade-usuário">Idade</label>
+        <input type="number" min="0" max="130" value="18">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="5" placeholder="senha do usuário">
+        </textarea>
+
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade" size="4">
+            <option value="0">--- Selecione ---</option>
+            <option value="1">--- Mongagua ---</option>
+            <option value="2">--- Itanhaém ---</option>
+            <option value="3">--- Guaruja ---</option>
+            <option value="4">--- Cubatão ---</option>
+        </select>
+
+        <div>
+            <input type="checkbox" name="Li-e-concordo" id="Li-e-concordo" checked>
+            <label for="Li-e-concordo">Li e concordo com os termos de serviço</label>
+        </div>
+
+        <div>
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
+</main>
